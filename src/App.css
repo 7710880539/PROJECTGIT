@@ -1,8 +1,107 @@
 .App {
-  text-align: center;
+  box-sizing: border-box;
+  display: block;
+
+  /* background-color: #282c34; */
+
+  background-color: #1a1b21;
+  max-width: 800px;
+  border-radius: 10px;
+  margin: auto;
+  width: 50%;
+  border: 10px solid white;
+  border-radius: 40px;
+  padding: 10px;
+}
+.Info {
+  display: block;
+  margin: auto;
+  width: 50%;
+  border: 3px;
+  padding: 10px;
+  padding-top: 50px;
 }
 
-.App-logo {
+.Info > img {
+  width: 356px;
+  height: 411px;
+  border-radius: 10px;
+}
+.Info > header {
+  color: white;
+  padding-top: 20px;
+  font-size: 35px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: auto;
+  width: 60%;
+}
+.Info > role,
+.Info > add {
+  color: white;
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding-top: 10px;
+
+  font-size: 18px;
+}
+.Info > role {
+  color: #ff8c62;
+}
+.Info > add {
+  font-size: 15px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.Info > buttonsec {
+  display: flex;
+}
+.Info > buttonsec > button {
+  margin: auto;
+  width: 50%;
+  height: 40px;
+  max-width: 150px;
+  border-radius: 7px;
+}
+.b1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+}
+.b2 {
+  background-color: #5093e2;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+}
+.About {
+  padding: 20px 30px;
+  color: white;
+  font-size: 30px;
+}
+.About > p {
+  color: grey;
+  font-size: 25px;
+}
+.Intrests {
+  padding: 20px 30px;
+  color: white;
+  font-size: 30px;
+}
+.Intrests > p {
+  color: grey;
+  font-size: 25px;
+}
+.Footer {
+  padding: 20px 30px;
+  background-color: #161619;
+}
+.Footer > img {
+  max-height: 70px;
+  margin-left: 20px;
+  border-radius: 10px;
+  padding-right: 40px;
+}
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +134,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+}  */
